@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Football on @uijl</title>
+    <link>http://uijl.github.io/tags/football/</link>
+    <description>Recent content in Football on @uijl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 12:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="http://uijl.github.io/tags/football/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Benefit of Scoring Right Before Half Time</title>
+      <link>http://uijl.github.io/posts/benefit-of-scoring-right-before-half-time/</link>
+      <pubDate>Mon, 01 Jan 2018 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/posts/benefit-of-scoring-right-before-half-time/</guid>
+      <description>Coming soon</description>
+    </item>
+    
+  </channel>
+</rss>
