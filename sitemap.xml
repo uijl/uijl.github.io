@@ -3,38 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://uijl.github.io/about/</loc>
+    <lastmod>2019-01-01T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://uijl.github.io/posts/benefit-of-scoring-right-before-the-break/</loc>
+    <lastmod>2019-01-01T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://uijl.github.io/goals/</loc>
+    <lastmod>2019-01-01T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://uijl.github.io/reading/</loc>
+    <lastmod>2019-01-01T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://uijl.github.io/recommendations/</loc>
+    <lastmod>2019-01-01T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://uijl.github.io/posts/</loc>
     <lastmod>2018-12-24T16:01:16+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://uijl.github.io/reading/</loc>
-    <lastmod>2018-12-24T15:51:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://uijl.github.io/recommendations/</loc>
-    <lastmod>2018-12-24T15:51:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://uijl.github.io/goals/</loc>
-    <lastmod>2018-12-24T15:51:09+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://uijl.github.io/about/</loc>
-    <lastmod>2018-12-24T15:50:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://uijl.github.io/posts/benefit-of-scoring-right-before-half-time/</loc>
-    <lastmod>2018-01-01T12:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://uijl.github.io/</loc>
-    <lastmod>2018-12-24T15:51:14+01:00</lastmod>
+    <lastmod>2019-01-01T12:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -44,26 +44,32 @@
   </url>
   
   <url>
+    <loc>http://uijl.github.io/tags/data/</loc>
+    <lastmod>2019-01-01T12:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://uijl.github.io/tags/data-analysis/</loc>
-    <lastmod>2018-01-01T12:00:00+01:00</lastmod>
+    <lastmod>2019-01-01T12:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://uijl.github.io/tags/football/</loc>
-    <lastmod>2018-01-01T12:00:00+01:00</lastmod>
+    <lastmod>2019-01-01T12:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://uijl.github.io/tags/</loc>
-    <lastmod>2018-01-01T12:00:00+01:00</lastmod>
+    <lastmod>2019-01-01T12:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://uijl.github.io/tags/webscraping/</loc>
-    <lastmod>2018-01-01T12:00:00+01:00</lastmod>
+    <lastmod>2019-01-01T12:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   

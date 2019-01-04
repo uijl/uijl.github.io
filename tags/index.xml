@@ -6,15 +6,24 @@
     <description>Recent content in Tags on @uijl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2018 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 12:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://uijl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Data</title>
+      <link>http://uijl.github.io/tags/data/</link>
+      <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Analysis</title>
       <link>http://uijl.github.io/tags/data-analysis/</link>
-      <pubDate>Mon, 01 Jan 2018 12:00:00 +0100</pubDate>
+      <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
       
       <guid>http://uijl.github.io/tags/data-analysis/</guid>
       <description></description>
@@ -23,7 +32,7 @@
     <item>
       <title>Football</title>
       <link>http://uijl.github.io/tags/football/</link>
-      <pubDate>Mon, 01 Jan 2018 12:00:00 +0100</pubDate>
+      <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
       
       <guid>http://uijl.github.io/tags/football/</guid>
       <description></description>
@@ -32,7 +41,7 @@
     <item>
       <title>Webscraping</title>
       <link>http://uijl.github.io/tags/webscraping/</link>
-      <pubDate>Mon, 01 Jan 2018 12:00:00 +0100</pubDate>
+      <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
       
       <guid>http://uijl.github.io/tags/webscraping/</guid>
       <description></description>

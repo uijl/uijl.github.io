@@ -6,38 +6,34 @@
     <description>Recent content on @uijl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Dec 2018 15:51:14 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 12:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://uijl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Reading</title>
-      <link>http://uijl.github.io/reading/</link>
-      <pubDate>Mon, 24 Dec 2018 15:51:14 +0100</pubDate>
+      <title>About</title>
+      <link>http://uijl.github.io/about/</link>
+      <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
       
-      <guid>http://uijl.github.io/reading/</guid>
-      <description>I plan to keep a list of the books I have read since past year.
-2019 I have not finished any book yet, but I am reading the following:
- The Black Swan - Nassim Nicholas Taleb.  2018 Unfortunately this list is not as long as I thought it would be.
- Sapiens - Yuval Noah Hariri. I read this Book, just like everyone else. But unlike most people, I found it kind of hard to get through.</description>
+      <guid>http://uijl.github.io/about/</guid>
+      <description>My name is Joris den Uijl. I graduated as a hydraulic engineer from TU Delft in January &amp;lsquo;18. During my study I got more and more interested in &amp;ldquo;tech&amp;rdquo;. I started reading Hacker News, following ProductHunt and taught myself python programming. After my graduation I worked one year as a quantitave consultant in finance. Luckily I got a call from my former graduation supervisor and was able to join a large marine contractor as a Data Engineer.</description>
     </item>
     
     <item>
-      <title>Recommendations</title>
-      <link>http://uijl.github.io/recommendations/</link>
-      <pubDate>Mon, 24 Dec 2018 15:51:14 +0100</pubDate>
+      <title>Benefit of Scoring Right Before The Break</title>
+      <link>http://uijl.github.io/posts/benefit-of-scoring-right-before-the-break/</link>
+      <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
       
-      <guid>http://uijl.github.io/recommendations/</guid>
-      <description>I like to keep a list of useful resources on the web.
-Who to follow I am no other social media platform than twitter, this is my main source of news (I am still in doubt whether to block the word &amp;ldquo;Trump&amp;rdquo;) and I keep up-to-date with tech related news. On twitter I highly recommend following:
- Ryan Hoover, the founder of Product Hunt and therefore ahead of everyone else when it comes to new start-ups, products or trends.</description>
+      <guid>http://uijl.github.io/posts/benefit-of-scoring-right-before-the-break/</guid>
+      <description>I love watching football but there are several commentators in the Netherlands that have the annoying ability to kick in open doors and present useless facts. Unfortunately Dutch teams are often behind in international matches, so a statement that often returns is &amp;ldquo;If they score now, right before the break, they will start the second half with a morale boost&amp;rdquo;.
+Although I understand the logic behind this reasoning, I have never seen data that substantiates it.</description>
     </item>
     
     <item>
       <title>Goals</title>
       <link>http://uijl.github.io/goals/</link>
-      <pubDate>Mon, 24 Dec 2018 15:51:09 +0100</pubDate>
+      <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
       
       <guid>http://uijl.github.io/goals/</guid>
       <description>Since I am trained as a (hydraulic) engineering I learned to code by myself. To prioritize my time I need a clear list of (prioritized) goals. The goal of publishing this list is similar as this website: Forcing myself to showcase my results and goals. If you have any questions or recommendations, please contact me on twitter.
@@ -45,22 +41,25 @@ This will be a &amp;ldquo;living&amp;rdquo; document and I&amp;rsquo;ll update i
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://uijl.github.io/about/</link>
-      <pubDate>Mon, 24 Dec 2018 15:50:44 +0100</pubDate>
+      <title>Reading</title>
+      <link>http://uijl.github.io/reading/</link>
+      <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
       
-      <guid>http://uijl.github.io/about/</guid>
-      <description>My name is Joris den Uijl. I graduated as a hydraulic engineer from TU Delft in January &amp;lsquo;18. During my study I got more and more interested in &amp;ldquo;tech&amp;rdquo;. I started reading Hacker News, following ProductHunt and tought myself python programming. Luckily I was able to join a large marine contractor as a Data Engineer.
-I like data science/analytics/visualisation and python so most of my projects will comprise either analysing data or obtaining data.</description>
+      <guid>http://uijl.github.io/reading/</guid>
+      <description>I plan to keep a list of the books I have read since past year.
+2019 I have not finished any book yet, but I am reading the following:
+ The Black Swan - Nassim Nicholas Taleb. I find it hard to get through this book, but I enjoy the insights and the way of thinking that Taleb presents.  2018 Unfortunately this list is not as long as I hoped it would be.</description>
     </item>
     
     <item>
-      <title>Benefit of Scoring Right Before Half Time</title>
-      <link>http://uijl.github.io/posts/benefit-of-scoring-right-before-half-time/</link>
-      <pubDate>Mon, 01 Jan 2018 12:00:00 +0100</pubDate>
+      <title>Recommendations</title>
+      <link>http://uijl.github.io/recommendations/</link>
+      <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
       
-      <guid>http://uijl.github.io/posts/benefit-of-scoring-right-before-half-time/</guid>
-      <description>Coming soon</description>
+      <guid>http://uijl.github.io/recommendations/</guid>
+      <description>I like to keep a list of useful resources on the web.
+Who to follow I am no other social media platform than twitter, this is my main source of news (I am still in doubt whether to block the word &amp;ldquo;Trump&amp;rdquo;) and I keep up-to-date with tech related news. On twitter I highly recommend following:
+ Ryan Hoover, the founder of Product Hunt and therefore ahead of everyone else when it comes to new start-ups, products or trends.</description>
     </item>
     
   </channel>
