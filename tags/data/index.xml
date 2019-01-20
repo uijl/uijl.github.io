@@ -6,10 +6,20 @@
     <description>Recent content in Data on @uijl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jan 2019 12:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://uijl.github.io/tags/data/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>When are all short .com domains registered?</title>
+      <link>http://uijl.github.io/posts/short-.com-domain-registrations/</link>
+      <pubDate>Sun, 20 Jan 2019 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/posts/short-.com-domain-registrations/</guid>
+      <description>Short domain names are worth money. Some of the most popular domain names are two- or three-letter .com domains. In the top 20 of the Alexa top 500 there are three short domains listed: rank 7 (qq.com), rank 15 (jd.com) and rank 17 (vk.com). Or even four if you count rank 3 (fb.com), which is listed as facebook.com.
+Inspired by some posts on domain registration dates, such as this one, I decided to inspect the registration date of all two-letter and three-letter .</description>
+    </item>
     
     <item>
       <title>Benefit of Scoring Right Before The Break</title>

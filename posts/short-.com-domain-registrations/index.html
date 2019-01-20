@@ -1,0 +1,408 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <title>@uijl</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal blog by Joris den Uijl" />
+  <meta name="author" content="Joris den Uijl" />
+  <meta name="generator" content="Hugo 0.52" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="/css/share_buttons.css" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="/">@uijl</a>
+            </h1>
+
+      <ul id="social-media">
+        
+        <li><a href="https://twitter.com/jorisdenuijl"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://www.linkedin.com/in/jorisdenuijl"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://github.com/uijl"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+      </ul>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="/about/">
+                <i class="fa-li fa  fa-lg"></i><span>About</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/posts/">
+                <i class="fa-li fa  fa-lg"></i><span>Blog posts</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/goals/">
+                <i class="fa-li fa  fa-lg"></i><span>Goals</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/reading/">
+                <i class="fa-li fa  fa-lg"></i><span>Reading</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/recommendations/">
+                <i class="fa-li fa  fa-lg"></i><span>Recommendations</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>When are all short .com domains registered?</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2019-01-20T12:00:00&#43;01:00">Jan 20, 2019</time>
+        </li>
+        
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="/tags/webscraping/">#Webscraping</a>
+                
+                    , 
+                    <a href="/tags/data-analysis/">#Data Analysis</a>
+                
+                    , 
+                    <a href="/tags/data/">#Data</a>
+                
+            </em>
+        </li>
+        
+
+        <li>4 min read</li>
+    </ul>
+</aside>
+    
+
+    
+
+<p>Short domain names are worth money. Some of the most popular domain names are two- or three-letter .com domains. In the top 20 of the <a href="https://www.alexa.com/topsites">Alexa top 500</a> there are three short domains listed: <a href="https://www.qq.com">rank 7 (qq.com)</a>, <a href="https://www.jd.com">rank 15 (jd.com)</a> and <a href="https://www.vk.com">rank 17 (vk.com)</a>. Or even four if you count <a href="https://www.fb.com">rank 3 (fb.com)</a>, which is listed as <a href="https://www.facebook.com">facebook.com</a>.</p>
+
+<p>Inspired by some posts on domain registration dates, such as <a href="https://www.cambus.net/oldest-domains-in-the-com-net-and-org-tlds/">this one</a>, I decided to inspect the registration date of all two-letter and three-letter .com domains. For this analysis I only looked to the ascii-letters, which gives us a total of 26^2 + 26^3 = 18,252 domain names.</p>
+
+<p>Unfortunately all domains are already taken. However, I still think the analysis of the registration dates is interesting. For example, most of the domains were registered during the dot-com bubble. The peak of the NASDAQ Composite and the monthly number of registrations even coincides, peaking in early 2000.</p>
+
+<p>In the upcoming sections I will go deeper in the analysis and list some interesting findings. The registration dates of all websites, the code I used for obtaining the data and the code I used for the analysis can be found on my <a href="https://github.com/uijl/Scraping-Projects/Oldest-Domains">github</a>.</p>
+
+<h3 id="top-20">Top 20</h3>
+
+<p>The first registered .com domain is <a href="https://www.symbolics.com">symbolics.com</a>, which was registered on March 15, 1985. The first registered domain in the dataset that I am looking at was <a href="https://www.bbn.com">bbn.com</a> and according to both <a href="https://en.wikipedia.org/wiki/List_of_the_oldest_currently_registered_Internet_domain_names">Wikipedia</a> and <a href="https://www.cambus.net/oldest-domains-in-the-com-net-and-org-tlds/">Frederic Cambus</a> this was the second .com domain ever registered. It registered on April 24, 1985.</p>
+
+<p>It took over two and a half years to register the first 20 domain two- or three-letter .com domains, number twenty was <a href="https://www.gte.com">gte.com</a> and registered on November 5, 1986. The twenty earliest registered domains in the dataset that I am looking at are listed below:</p>
+
+<table>
+<thead>
+<tr>
+<th>Domain names</th>
+<th>Creation date</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>bbn.com</td>
+<td>1985-04-24</td>
+</tr>
+
+<tr>
+<td>mcc.com</td>
+<td>1985-07-11</td>
+</tr>
+
+<tr>
+<td>dec.com</td>
+<td>1985-09-30</td>
+</tr>
+
+<tr>
+<td>sri.com</td>
+<td>1986-01-17</td>
+</tr>
+
+<tr>
+<td>hp.com</td>
+<td>1986-03-03</td>
+</tr>
+
+<tr>
+<td>ibm.com</td>
+<td>1986-03-19</td>
+</tr>
+
+<tr>
+<td>sun.com</td>
+<td>1986-03-19</td>
+</tr>
+
+<tr>
+<td>ti.com</td>
+<td>1986-03-25</td>
+</tr>
+
+<tr>
+<td>att.com</td>
+<td>1986-04-25</td>
+</tr>
+
+<tr>
+<td>gmr.com</td>
+<td>1986-05-08</td>
+</tr>
+
+<tr>
+<td>tek.com</td>
+<td>1986-05-08</td>
+</tr>
+
+<tr>
+<td>fmc.com</td>
+<td>1986-07-10</td>
+</tr>
+
+<tr>
+<td>ub.com</td>
+<td>1986-07-10</td>
+</tr>
+
+<tr>
+<td>isc.com</td>
+<td>1986-08-05</td>
+</tr>
+
+<tr>
+<td>nsc.com</td>
+<td>1986-08-05</td>
+</tr>
+
+<tr>
+<td>ge.com</td>
+<td>1986-08-05</td>
+</tr>
+
+<tr>
+<td>ray.com</td>
+<td>1986-10-27</td>
+</tr>
+
+<tr>
+<td>bdm.com</td>
+<td>1986-10-27</td>
+</tr>
+
+<tr>
+<td>nec.com</td>
+<td>1986-10-27</td>
+</tr>
+
+<tr>
+<td>gte.com</td>
+<td>1986-11-05</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="bottom-20">Bottom 20</h3>
+
+<p>The latest registration of any of the domains was on July 19th, 2018. Only a month ago. But given the fact that it has been registered by DropCatch.com it probably has been registered before, unfortunately I have not been able to retrieve the original registration date. The same holds for the second-to-last registration, this was on May 13, 2018 and is also held by DropCatch.com.</p>
+
+<p>The twenty latest registrations in the dataset that I am looking at are listed below. It is interesting to see that only 20 domains – out of a dataset of 18,252 – have been (re-)registered over the past eight years.</p>
+
+<table>
+<thead>
+<tr>
+<th>Domain names</th>
+<th>Creation date</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>qpe.com</td>
+<td>2010-06-05</td>
+</tr>
+
+<tr>
+<td>yds.com</td>
+<td>2010-11-21</td>
+</tr>
+
+<tr>
+<td>ihh.com</td>
+<td>2011-04-01</td>
+</tr>
+
+<tr>
+<td>xte.com</td>
+<td>2011-04-15</td>
+</tr>
+
+<tr>
+<td>ycp.com</td>
+<td>2011-05-19</td>
+</tr>
+
+<tr>
+<td>syc.com</td>
+<td>2011-06-24</td>
+</tr>
+
+<tr>
+<td>hzg.com</td>
+<td>2011-07-03</td>
+</tr>
+
+<tr>
+<td>iqw.com</td>
+<td>2012-02-01</td>
+</tr>
+
+<tr>
+<td>wgj.com</td>
+<td>2013-04-06</td>
+</tr>
+
+<tr>
+<td>kjq.com</td>
+<td>2013-04-28</td>
+</tr>
+
+<tr>
+<td>bsf.com</td>
+<td>2013-09-03</td>
+</tr>
+
+<tr>
+<td>cnm.com</td>
+<td>2013-09-25</td>
+</tr>
+
+<tr>
+<td>zfn.com</td>
+<td>2014-07-24</td>
+</tr>
+
+<tr>
+<td>cm.com</td>
+<td>2015-01-16</td>
+</tr>
+
+<tr>
+<td>pdm.com</td>
+<td>2015-04-05</td>
+</tr>
+
+<tr>
+<td>viq.com</td>
+<td>2016-11-05</td>
+</tr>
+
+<tr>
+<td>xci.com</td>
+<td>2017-02-15</td>
+</tr>
+
+<tr>
+<td>rxj.com</td>
+<td>2018-05-09</td>
+</tr>
+
+<tr>
+<td>njd.com</td>
+<td>2018-05-13</td>
+</tr>
+
+<tr>
+<td>btm.com</td>
+<td>2018-07-19</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="cumulative-registrations">Cumulative registrations</h3>
+
+<p>Given that it took over two and a half years to register the first twenty domain names, it is interesting to see how the cumulative number of registrations has developed over time. From registration number 1 to registration number 18,252. This is visualized in the image below, the solid lines shows the total number of registrations at any given time. The two blue dots represent registration number 1,000 and registration number 17,252: mark the end of the first thousand registrations and the marking the start of the last thousand registrations.</p>
+
+<p>It took approximately 9 years to register the first 5% of all domains, 9 more years to register 90% of the total population and finally another 9 years for the remaining 5%.</p>
+
+<p><img src="https://raw.githubusercontent.com/uijl/uijl.github.io_blog/master/figures/short-domain-names-cumulative-registrations.png" alt="Cumulative registrations" title="The cumulative number of registrations" /></p>
+
+<h3 id="number-of-registrations-during-com-bubble">Number of registrations during .com bubble</h3>
+
+<p>Most of the domain name registrations took place in the 1990s. And it is very interesting (and obvious, but still ..) that the steep increase in registrations start approximately in 1993 / 1994. Right after the release of the <a href="https://en.wikipedia.org/wiki/Mosaic_(web_browser)">Mosaic web browser</a>, which has been said to start the .com bubble.</p>
+
+<p>As the image below shows, the maximum number of monthly domain registrations peaked almost simultaneously with the <a href="https://finance.yahoo.com/quote/%5EIXIC/history?period1=441759600&amp;period2=1525125600&amp;interval=1mo&amp;filter=history&amp;frequency=1mo">NASDAQ Composite</a>. The maximum number of domains registered in a month is 1,107 and this was in January, 2000. The NASDAQ Composite peaked March 10, 2000 and the bubble burst right after. The NASDAQ only broke the record of 2000 in 2015, 15 years (and another large stock crash) later.</p>
+
+<p><img src="https://raw.githubusercontent.com/uijl/uijl.github.io_blog/master/figures/short-domain-names-registrations-vs-nasdaq.png" alt="Registrations during bubble" title="The number of domain name registrations during the .com bubble" /></p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="http://uijl.github.io/posts/benefit-of-scoring-right-before-the-break/"><i class="fa fa-chevron-circle-left"></i> Benefit of Scoring Right Before The Break</a>
+        </li>
+        
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6>
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            Designed by me</h6>
+    </footer>
+</div>
+<script src="/js/scripts.js"></script>
+</body>
+
+</html>
