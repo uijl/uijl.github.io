@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Hacker News Top Sources</title>
+      <link>http://uijl.github.io/posts/hacker-news-top-sources/</link>
+      <pubDate>Thu, 07 Feb 2019 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/posts/hacker-news-top-sources/</guid>
+      <description>One of the two sites that I visit daily is Hacker News. I saw this tweet by its developer (and the co-founder of Y Combinator) a while back and wondered what the most popular sources are for the top posts on Hacker News. Today marks the anniversary of the second launch, so no better time for this blogpost.
+The all-time top posts can be found via a very simple search, an empy query sorted by popularity over all time.</description>
+    </item>
+    
+    <item>
       <title>When are all short .com domains registered?</title>
       <link>http://uijl.github.io/posts/short-.com-domain-registrations/</link>
       <pubDate>Sun, 20 Jan 2019 12:00:00 +0100</pubDate>

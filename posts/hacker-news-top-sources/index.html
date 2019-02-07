@@ -1,0 +1,183 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <title>@uijl</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal blog by Joris den Uijl" />
+  <meta name="author" content="Joris den Uijl" />
+  <meta name="generator" content="Hugo 0.52" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="/css/share_buttons.css" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="/">@uijl</a>
+            </h1>
+
+      <ul id="social-media">
+        
+        <li><a href="https://twitter.com/jorisdenuijl"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://www.linkedin.com/in/jorisdenuijl"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://github.com/uijl"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+      </ul>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="/about/">
+                <i class="fa-li fa  fa-lg"></i><span>About</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/posts/">
+                <i class="fa-li fa  fa-lg"></i><span>Blog posts</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/goals/">
+                <i class="fa-li fa  fa-lg"></i><span>Goals</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/reading/">
+                <i class="fa-li fa  fa-lg"></i><span>Reading</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/recommendations/">
+                <i class="fa-li fa  fa-lg"></i><span>Recommendations</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Hacker News Top Sources</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2019-02-07T12:00:00&#43;01:00">Feb 7, 2019</time>
+        </li>
+        
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="/tags/hacker-news/">#hacker news</a>
+                
+                    , 
+                    <a href="/tags/data-analysis/">#data analysis</a>
+                
+            </em>
+        </li>
+        
+
+        <li>3 min read</li>
+    </ul>
+</aside>
+    
+
+    
+
+<p>One of the two sites that I visit daily is <a href="news.ycombinator.com">Hacker News</a>. I saw <a href="https://twitter.com/paulg/status/1049723540902215681">this tweet</a> by its developer (and the co-founder of Y Combinator) a while back and wondered what the most popular sources are for the top posts on Hacker News. Today marks the anniversary of the second launch, so no better time for this blogpost.</p>
+
+<p><img src="https://raw.githubusercontent.com/uijl/uijl.github.io_blog/master/figures/hacker-news-blog-inspiration.png" alt="https://raw.githubusercontent.com/uijl/uijl.github.io_blog/master/figures/hacker-news-blog-inspiration.png" title="Tweet by Paul Graham" /></p>
+
+<p>The all-time top posts can be found via a very simple <a href="https://hn.algolia.com/?q=&amp;query=&amp;sort=byPopularity&amp;prefix&amp;page=0&amp;dateRange=all&amp;type=story">search</a>, an empy query sorted by popularity over all time. But because the popularity of Hacker News has increased over time, the more popular sources will be skewed towards more recent posts. Therefore I thought it might be more interesting to see what most frequent sources are if I gather the top 5 daily stories since the start of the site.</p>
+
+<h3 id="top-posts-per-day">Top posts per day</h3>
+
+<p>As we can see from the tweet by Paul Graham, Hacker News started on 2006-10-09. At first I tried finding the top 5 stories per day, because that was my goal. However, I noticed that I missed some noteworthy datapoints (the death of Steven Hawking for example). Therefore I tried again by finding the top stories per 12 hours, now I did seem to capture all the data.</p>
+
+<p><img src="https://raw.githubusercontent.com/uijl/uijl.github.io_blog/master/figures/hacker-news-blog-top5-stories-per-month.png" alt="https://raw.githubusercontent.com/uijl/uijl.github.io_blog/master/figures/hacker-news-blog-top5-stories-per-month.png" title="Number of comments for the top 5 stories every month" /></p>
+
+<p>The graph above shows the average number of points for the top   5 stories (the blue line) and the bound of the number of points of the most popular daily post and the fifth popular daily post. As I expected, there is a clear trend in higher points for more recent posts. There are three distinctive peaks, the top 3 posts of all time:</p>
+
+<ol>
+<li>The death of Steve Jobs (<a href="https://www.apple.com/stevejobs/">2011-10-05</a>)</li>
+<li>The note from Apple on data protection (<a href="https://www.apple.com/customer-letter/">2016-02-16</a>)</li>
+<li>The death of Steven Hawking (<a href="https://www.bbc.com/news/uk-43396008">2018-03-14</a>)</li>
+</ol>
+
+<h3 id="top-sources">Top sources</h3>
+
+<p>Now that we have the list of the top 5 posts per day, we can extract the most common sources of these posts. It is fun to see that (on average) the most popular posts have no URL, these are &ldquo;Ask HN&rdquo; posts. I understand why the &ldquo;Ask HN&rdquo; posts are so popular, the questions are often relevant for a large number of people and there is an intelligent and diverse community on Hacker News. The second position is held by Github, often &ldquo;Show HN&rdquo; posts, used for both launching new projects and asking feedback.</p>
+
+<p>The highest ranking publishers, by far, are The New York Times and TechCrunch as we can see below. I wonder if this is related to quality or exclusives.</p>
+
+<p><img src="https://raw.githubusercontent.com/uijl/uijl.github.io_blog/master/figures/hacker-news-blog-top-sources-per-month.png" alt="https://raw.githubusercontent.com/uijl/uijl.github.io_blog/master/figures/hacker-news-blog-top-sources-per-month.png" title="Top 20 sources based on the top stories every month" /></p>
+
+<h3 id="top-publishers">Top publishers</h3>
+
+<p>To obtain the list below I had to remove 17 sources that scored a higher number of top stories than Reuters. Including five sources related to Google (even Google Plus was in the list). I also combined bbc.com and bbc.co.uk, assuming that they run the same content.</p>
+
+<p>The top sources also included two personal websites: the website of the founder of <a href="https://news.ycombinator.com">Hacker News</a> <a href="https://http://paulgraham.com/">Paul Graham</a> and the website of the founder of <a href="https://stackoverflow.com/">Stack Overflow</a> <a href="https://blog.codinghorror.com/">Jeff Atwood</a>.</p>
+
+<p><img src="https://raw.githubusercontent.com/uijl/uijl.github.io_blog/master/figures/hacker-news-blog-top-publishers-per-month.png" alt="https://raw.githubusercontent.com/uijl/uijl.github.io_blog/master/figures/hacker-news-blog-top-publishers-per-month.png" title="Top 20 publishers based on the top stories every month" /></p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="http://uijl.github.io/posts/short-.com-domain-registrations/"><i class="fa fa-chevron-circle-left"></i> When are all short .com domains registered?</a>
+        </li>
+        
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6>
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            Designed by me</h6>
+    </footer>
+</div>
+<script src="/js/scripts.js"></script>
+</body>
+
+</html>
