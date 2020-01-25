@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>How to use a Python virtual environment on WSL</title>
+      <link>http://uijl.github.io/posts/python-virtual-environment-wsl/</link>
+      <pubDate>Sat, 25 Jan 2020 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/posts/python-virtual-environment-wsl/</guid>
+      <description>I wrote this down because I keep forgetting it. It might be usefull for others who want to set-up virtual environments for Python on WSL as well. The first step we want to do is update and upgrade our subsystem. Open bash and use the command below.
+root@host: path# sudo apt update &amp;amp;&amp;amp; upgrade  Once your system is up-to-date you can install the python-virtual environment.
+root@host: path# apt-get install python-virtualenv  Windows Subsystem for Linux comes installed with two python versions installed, before we continue you need to decide which Python distribution you want to use for your virtual environment.</description>
+    </item>
+    
+    <item>
       <title>Hacker News Top Sources</title>
       <link>http://uijl.github.io/posts/hacker-news-top-sources/</link>
       <pubDate>Thu, 07 Feb 2019 12:00:00 +0100</pubDate>

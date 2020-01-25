@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtual Environment on @uijl</title>
+    <link>http://uijl.github.io/tags/virtual-environment/</link>
+    <description>Recent content in Virtual Environment on @uijl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jan 2020 12:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="http://uijl.github.io/tags/virtual-environment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to use a Python virtual environment on WSL</title>
+      <link>http://uijl.github.io/posts/python-virtual-environment-wsl/</link>
+      <pubDate>Sat, 25 Jan 2020 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/posts/python-virtual-environment-wsl/</guid>
+      <description>I wrote this down because I keep forgetting it. It might be usefull for others who want to set-up virtual environments for Python on WSL as well. The first step we want to do is update and upgrade our subsystem. Open bash and use the command below.
+root@host: path# sudo apt update &amp;amp;&amp;amp; upgrade  Once your system is up-to-date you can install the python-virtual environment.
+root@host: path# apt-get install python-virtualenv  Windows Subsystem for Linux comes installed with two python versions installed, before we continue you need to decide which Python distribution you want to use for your virtual environment.</description>
+    </item>
+    
+  </channel>
+</rss>

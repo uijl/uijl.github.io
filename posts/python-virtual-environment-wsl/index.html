@@ -1,0 +1,179 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <title>@uijl</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal blog by Joris den Uijl" />
+  <meta name="author" content="Joris den Uijl" />
+  <meta name="generator" content="Hugo 0.54.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="/css/share_buttons.css" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="/">@uijl</a>
+            </h1>
+
+      <ul id="social-media">
+         
+        <li><a href="https://www.linkedin.com/in/jorisdenuijl"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://github.com/uijl"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+      </ul>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="/about/">
+                <i class="fa-li fa  fa-lg"></i><span>About</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/posts/">
+                <i class="fa-li fa  fa-lg"></i><span>Blog posts</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/goals/">
+                <i class="fa-li fa  fa-lg"></i><span>Goals</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/reading/">
+                <i class="fa-li fa  fa-lg"></i><span>Reading</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>How to use a Python virtual environment on WSL</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2020-01-25T12:00:00&#43;01:00">Jan 25, 2020</time>
+        </li>
+        
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="/tags/python/">#Python</a>
+                
+                    , 
+                    <a href="/tags/wsl/">#WSL</a>
+                
+                    , 
+                    <a href="/tags/windows-subsystem-for-linux/">#Windows Subsystem for Linux</a>
+                
+                    , 
+                    <a href="/tags/virtual-environment/">#Virtual Environment</a>
+                
+            </em>
+        </li>
+        
+
+        <li>1 min read</li>
+    </ul>
+</aside>
+    
+
+    <p>I wrote this down because I keep forgetting it. It might be usefull for others who want to set-up virtual environments for Python on WSL as well. The first step we want to do is update and upgrade our subsystem. Open bash and use the command below.</p>
+
+<pre><code class="language-bash">root@host: path# sudo apt update &amp;&amp; upgrade
+</code></pre>
+
+<p>Once your system is up-to-date you can install the python-virtual environment.</p>
+
+<pre><code class="language-bash">root@host: path# apt-get install python-virtualenv
+</code></pre>
+
+<p>Windows Subsystem for Linux comes installed with two python versions installed, before we continue you need to decide which Python distribution you want to use for your virtual environment. The commands below show you the location of the two Python distributions installed.</p>
+
+<pre><code class="language-bash">root@host: path# which python
+/usr/bin/python
+root@host: path# which python3
+/usr/bin/python3
+</code></pre>
+
+<p>If you know which python version you want to use you can run the code below to create a virtual environment. First we create the folder in which the environment will be installed using the <code>mkdir</code> command. The name of the folder will be <em>venv</em>.</p>
+
+<pre><code class="language-bash">root@host: path# mkdir venv
+root@host: path# virtualenv -p /usr/bin/python3 venv/python_project
+</code></pre>
+
+<p>To start the virtual environment run the code below.</p>
+
+<pre><code class="language-bash">root@host: path# source venv/python_project/bin/activate
+(python_project) root@host: path#
+</code></pre>
+
+<p>To close the virtual environment simply run <code>deactivate</code>.</p>
+
+<pre><code class="language-bash">(python_project) root@host: path# deactivate
+root@host: path#
+</code></pre>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="http://uijl.github.io/posts/hacker-news-top-sources/"><i class="fa fa-chevron-circle-left"></i> Hacker News Top Sources</a>
+        </li>
+        
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6>
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            Designed by me</h6>
+    </footer>
+</div>
+<script src="/js/scripts.js"></script>
+</body>
+
+</html>

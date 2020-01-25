@@ -48,11 +48,47 @@
     </item>
     
     <item>
+      <title>Python</title>
+      <link>http://uijl.github.io/tags/python/</link>
+      <pubDate>Sat, 25 Jan 2020 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual Environment</title>
+      <link>http://uijl.github.io/tags/virtual-environment/</link>
+      <pubDate>Sat, 25 Jan 2020 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/tags/virtual-environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Webscraping</title>
       <link>http://uijl.github.io/tags/webscraping/</link>
       <pubDate>Sun, 20 Jan 2019 12:00:00 +0100</pubDate>
       
       <guid>http://uijl.github.io/tags/webscraping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows Subsystem for Linux</title>
+      <link>http://uijl.github.io/tags/windows-subsystem-for-linux/</link>
+      <pubDate>Sat, 25 Jan 2020 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/tags/windows-subsystem-for-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wsl</title>
+      <link>http://uijl.github.io/tags/wsl/</link>
+      <pubDate>Sat, 25 Jan 2020 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/tags/wsl/</guid>
       <description></description>
     </item>
     
