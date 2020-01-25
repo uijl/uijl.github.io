@@ -32,15 +32,6 @@ Inspired by some posts on domain registration dates, such as this one, I decided
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://uijl.github.io/about/</link>
-      <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
-      
-      <guid>http://uijl.github.io/about/</guid>
-      <description>My name is Joris den Uijl. I graduated as a hydraulic engineer from TU Delft in January &amp;lsquo;18. During my study I got more and more interested in &amp;ldquo;tech&amp;rdquo;. I started reading Hacker News, following ProductHunt and taught myself python programming. After my graduation I worked one year as a quantitave consultant in finance. Luckily I got a call from my former graduation supervisor and was able to join a large marine contractor as a Data Engineer.</description>
-    </item>
-    
-    <item>
       <title>Benefit of Scoring Right Before The Break</title>
       <link>http://uijl.github.io/posts/benefit-of-scoring-right-before-the-break/</link>
       <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
@@ -56,8 +47,9 @@ Although I understand the logic behind this reasoning, I have never seen data th
       <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
       
       <guid>http://uijl.github.io/goals/</guid>
-      <description>Since I am trained as a (hydraulic) engineer I learned to code by myself. To prioritize my time I need a clear list of (prioritized) goals. The goal of publishing this list is similar as this website: Forcing myself to showcase my results and goals. If you have any questions or recommendations, please contact me on twitter.
-This will be a &amp;ldquo;living&amp;rdquo; document and I&amp;rsquo;ll update this as I came across something else or finished one of the listed goals.</description>
+      <description>Since I am trained as a (hydraulic) engineer I learned to code by myself. To prioritize my time I need a clear list of (prioritized) goals. The goal of publishing this list is similar as this website: Forcing myself to showcase my results and goals.
+This will be a &amp;ldquo;living&amp;rdquo; document and I&amp;rsquo;ll update this as I came across something else or finished one of the listed goals.
+1. Python I trained myself Python with the goal of analysing and visualising data, therefore my skills are limited to Matplotlib, Scipy, Numpy and Pandas.</description>
     </item>
     
     <item>
@@ -66,21 +58,8 @@ This will be a &amp;ldquo;living&amp;rdquo; document and I&amp;rsquo;ll update t
       <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
       
       <guid>http://uijl.github.io/reading/</guid>
-      <description>I plan to keep a list of the books I have read since past year.
-2019 I am reading the following book:
- Rich Dad, Poor Dad - Robert Kiyosaki. On his podcast the author seems to be very arrogant, I do not know yet if his book will be similar.  I have finished only one book yet:
- The Richest man in Babylon - George Clason. Both this book and Rich Dad, Poor Dad get recommended often if you want to learn more about becom financially independent, but I do not find it that insightfull.</description>
-    </item>
-    
-    <item>
-      <title>Recommendations</title>
-      <link>http://uijl.github.io/recommendations/</link>
-      <pubDate>Tue, 01 Jan 2019 12:00:00 +0100</pubDate>
-      
-      <guid>http://uijl.github.io/recommendations/</guid>
-      <description>I like to keep a list of useful resources on the web.
-Who to follow I am no other social media platform than twitter, this is my main source of news (I am still in doubt whether to block the word &amp;ldquo;Trump&amp;rdquo;) and I keep up-to-date with tech related news. On twitter I highly recommend following:
- Ryan Hoover, the founder of Product Hunt and therefore ahead of everyone else when it comes to new start-ups, products or trends.</description>
+      <description>Below is a list of the books I have been reading, it is not as long as I would like it to be.
+2020  Thinking, Fast and Slow - Daniel Kahneman Very insightful. The 7 Habits of Highly Effective People - Stephen R. Covey  2019  The Intelligent Investor - Benjamin Graham A great introduction into value investing. And a conclusion if you do not have the time to pick value stocks: invest in trackers and don&amp;rsquo;t chicken out if there is a crash.</description>
     </item>
     
   </channel>
