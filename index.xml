@@ -6,10 +6,20 @@
     <description>Recent content on @uijl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jan 2020 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 12:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://uijl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Avoiding (nested) for loops</title>
+      <link>http://uijl.github.io/posts/avoiding-nested-for-loops/</link>
+      <pubDate>Sun, 26 Jan 2020 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/posts/avoiding-nested-for-loops/</guid>
+      <description>When I quickly need to write something I ofter resort to nested for loops, it works and I can easily see what I am doing. However, I am frustrated that I resort to this instead of using itertools, which I know is far superior. So this post is to force myself into using itertools and to use as a cheatsheet.
+There are three mistakes I no longer want to make so I will go through their alternatives in this post:</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -21,7 +31,7 @@
     </item>
     
     <item>
-      <title>How to use a Python virtual environment on WSL</title>
+      <title>How to create a Python virtual environment on WSL</title>
       <link>http://uijl.github.io/posts/python-virtual-environment-wsl/</link>
       <pubDate>Sat, 25 Jan 2020 12:00:00 +0100</pubDate>
       

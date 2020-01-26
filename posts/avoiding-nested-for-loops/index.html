@@ -1,0 +1,223 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <title>@uijl</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal blog by Joris den Uijl" />
+  <meta name="author" content="Joris den Uijl" />
+  <meta name="generator" content="Hugo 0.54.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="/css/share_buttons.css" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="/">@uijl</a>
+            </h1>
+
+      <ul id="social-media">
+         
+        <li><a href="https://www.linkedin.com/in/jorisdenuijl"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://github.com/uijl"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+      </ul>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="/about/">
+                <i class="fa-li fa  fa-lg"></i><span>About</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/posts/">
+                <i class="fa-li fa  fa-lg"></i><span>Blog posts</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/goals/">
+                <i class="fa-li fa  fa-lg"></i><span>Goals</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/reading/">
+                <i class="fa-li fa  fa-lg"></i><span>Reading</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Avoiding (nested) for loops</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2020-01-26T12:00:00&#43;01:00">Jan 26, 2020</time>
+        </li>
+        
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="/tags/python/">#Python</a>
+                
+                    , 
+                    <a href="/tags/for-loops/">#For Loops</a>
+                
+                    , 
+                    <a href="/tags/programming/">#Programming</a>
+                
+                    , 
+                    <a href="/tags/itertools/">#Itertools</a>
+                
+            </em>
+        </li>
+        
+
+        <li>3 min read</li>
+    </ul>
+</aside>
+    
+
+    
+
+<p>When I quickly need to write something I ofter resort to nested for loops, it works and I can easily see what I am doing. However, I am frustrated that I resort to this instead of using itertools, which I know is far superior. So this post is to force myself into using itertools and to use as a cheatsheet.</p>
+
+<p>There are three mistakes I no longer want to make so I will go through their alternatives in this post:</p>
+
+<ol>
+<li>Do something for i in list_A;</li>
+<li>For i in list_A, for j in list_A;</li>
+<li>For i in list_A, for j in list_B.</li>
+</ol>
+
+<h3 id="do-something-for-i-in-list-a">Do something for i in list_A</h3>
+
+<p>What I want to do is create a new list, by manipulating values in another list. Suppose we have a list with date strings and we want to create a list of datetime objects. The code below will provide the <em>wrong</em> solution, a solution using <a href="https://www.python.org/dev/peps/pep-0289/">generator expressions</a> and a solution using the build-in <a href="https://docs.python.org/3.8/library/functions.html#map">map function</a>. To be honest I do not know which of the two solutions is superior.</p>
+
+<pre><code class="language-python">from datetime import datetime
+
+# The strings we want to convert to datetime objects
+date_strings = [&quot;2020-01-01&quot;, &quot;2020-01-02&quot;, &quot;2020-01-03&quot;]
+
+# Wrong solution
+date_objects = []
+
+for date in date_datestrings:
+    date_objects.append(datetime.strptime(date, &quot;%Y-%m-%d&quot;))
+
+# Solution using a generator expression
+date_objects = [datetime.strptime(date, &quot;%Y-%m-%d&quot;) for date in date_strings]
+
+# Solution using map()
+date_objects = list(map(lambda date: datetime.strptime(date, &quot;%Y-%m-%d&quot;), date_strings))
+</code></pre>
+
+<h3 id="for-i-in-list-a-for-j-in-list-a">For i in list_A, for j in list_A</h3>
+
+<p>Sometimes you want to do something with all the unique combinations in a list. The easiest way out is a nested for loop but this should be prevented. The easiest way in doing so is using <a href="https://docs.python.org/3.8/library/itertools.html">itertools</a>. A build-in Python module with <em>Functions creating iterators for efficient looping</em>. It will require a seperate import statement.</p>
+
+<p>The function we want to use is <a href="https://docs.python.org/3.8/library/itertools.html#itertools.permutations">permutations</a>. You enter the <em>iterable</em> and the number of combined values you wish, every combination represented a nested-for loop.</p>
+
+<pre><code class="language-python"># The list to combine into unique combinations
+list_A = [1, 2, 3, 4, 5]
+
+# Wront solution
+combinations = []
+
+for i in list_A:
+    for j in list_A:
+        if i != j:
+            combinations.apend((i, j))
+
+# Solution using itertools
+import itertools
+combinations = list(itertools.permutations(list_A, 2))
+</code></pre>
+
+<h3 id="for-i-in-list-a-for-j-in-list-b">For i in list_A, for j in list_B</h3>
+
+<p>The most common nested for loop occurs when you want to do something with all possible combinations of multiple loops. Again, the best solution is provided by <a href="https://docs.python.org/3.8/library/itertools.html">itertools</a>, the <a href="https://docs.python.org/3.8/library/itertools.html#itertools.product">product function</a> in this case. It will generate all possible combinations between the provided <em>iterables</em>.</p>
+
+<pre><code class="language-python">from datetime import datetime
+
+# The years and months we are interested in
+years = [2020, 2021, 2022]
+months = [m+1 for m in range(12)]
+
+# Wrong solution
+date_objects = []
+
+for year in years:
+    for month in months:
+        date_objects.append(datetime(year, month, 1))
+
+# Solution using itertools
+import itertools
+date_objects = [datetime(year, month, 1) for year, month in itertools.product(years, months)]
+</code></pre>
+
+<p>You can take the <code>itertools.product</code> as far as you want. You can add as many <em>iterable</em> variables as possible and itertools will provide you with every unique combination of the iterables you provided.</p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="http://uijl.github.io/posts/python-virtual-environment-wsl/"><i class="fa fa-chevron-circle-left"></i> How to create a Python virtual environment on WSL</a>
+        </li>
+        
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6>
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            Designed by me</h6>
+    </footer>
+</div>
+<script src="/js/scripts.js"></script>
+</body>
+
+</html>
