@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on @uijl</title>
+    <link>http://uijl.github.io/tags/git/</link>
+    <description>Recent content in Git on @uijl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Feb 2020 12:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="http://uijl.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting pre-commit hooks</title>
+      <link>http://uijl.github.io/posts/setting-pre-commit-hooks/</link>
+      <pubDate>Sat, 01 Feb 2020 12:00:00 +0100</pubDate>
+      
+      <guid>http://uijl.github.io/posts/setting-pre-commit-hooks/</guid>
+      <description>Setting pre-commit hooks for checks on code formatting. The checks I want to do are:
+ Black Isort mypy en typehinting / typechecking pyupgrade  Text</description>
+    </item>
+    
+  </channel>
+</rss>

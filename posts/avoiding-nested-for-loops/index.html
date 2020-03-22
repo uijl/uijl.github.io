@@ -185,7 +185,9 @@ for year in years:
 
 # Solution using itertools
 import itertools
-date_objects = [datetime(year, month, 1) for year, month in itertools.product(years, months)]
+date_objects = [
+    datetime(year, month, 1) for year, month in itertools.product(years, months)
+]
 </code></pre>
 
 <p>You can take the <code>itertools.product</code> as far as you want. You can add as many <em>iterable</em> variables as possible and itertools will provide you with every unique combination of the iterables you provided.</p>
@@ -214,7 +216,7 @@ date_objects = [datetime(year, month, 1) for year, month in itertools.product(ye
     <footer>
         <h6>
             Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
-            Designed by me</h6>
+            Design modified from <a href="https://themes.gohugo.io/hugo-kiera/" title="Hugo">Hugo Kiera</a></h6>
     </footer>
 </div>
 <script src="/js/scripts.js"></script>
